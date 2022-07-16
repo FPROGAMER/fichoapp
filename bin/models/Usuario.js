@@ -13,7 +13,7 @@ const UsuarioSchema = new Schema ({
   pago:[
    {
       type:Schema.Types.ObjectId,
-      ref:"Usuario"
+      ref:"Pago"
    }
     
    ]
